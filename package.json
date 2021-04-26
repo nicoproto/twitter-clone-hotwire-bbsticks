@@ -2,14 +2,15 @@
   "name": "twitter_clone_hotwire_bbsticks",
   "private": true,
   "dependencies": {
+    "@hotwired/turbo-rails": "^7.0.0-beta.5",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.3.0",
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.13",
-    "tailwindcss": "^2.1.2",
-    "turbolinks": "^5.2.0"
+    "stimulus": "^2.0.0",
+    "tailwindcss": "^2.1.2"
   },
   "version": "0.1.0",
   "devDependencies": {
