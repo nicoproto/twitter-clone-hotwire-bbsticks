@@ -2,8 +2,8 @@ class CreateTweets < ActiveRecord::Migration[6.0]
   def change
     create_table :tweets do |t|
       t.text :body
-      t.integer :likes_count
-      t.integer :retweets_count
+      t.integer :likes_count, default: 0
+      t.integer :retweets_count, default: 0
 
       t.timestamps
     end
